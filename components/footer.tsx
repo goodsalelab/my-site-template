@@ -24,14 +24,14 @@ export function Footer() {
   const defaultInfo = {
     showFooter: true,
     name: "당신의 이름",
-    description: "당신을 소개하는 짧은 문구를 작성해주세요. ",
+    description: "잘파는 S (김소희)",
     showQuickLinks: true,
     quickLinksTitle: "빠른 링크",
     showContactInfo: true,
     contactTitle: "연락처",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
-    location: "당신의 위치",
+    phone: "010-6325-8329",
+    email: "goodsalelab@gmail.com",
+    location: "부산광역시",
     copyright: "",
     showMadeWith: true,
     madeWithLocation: "Mrbaeksang",
@@ -265,3 +265,4 @@ export function Footer() {
     </footer>
   )
 }
+

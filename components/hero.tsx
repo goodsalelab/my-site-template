@@ -36,9 +36,9 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/goodlab_4u"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: ".",
-    name: "잘파는연구소",
-    title: "부산지사 대표 잘파는S(김소희)",
+    greeting: "부산지사",
+    name: "잘파는 연구소",
+    title: "대표 잘파는S(김소희)",
     description: "검증된 전략,\n믿을 수 있는 실행\n당신의 든든한 성장 파트너",
     profileImage: "/uploads/hero-profile-1758379269132.jpg",
     backgroundImage: "",

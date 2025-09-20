@@ -97,7 +97,7 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "비즈니스의 길을 함께 걷는 신뢰할 수 있는 파트너\n잘파는S 김소희입니다.",
+    subtitle: "비즈니스의 길을 함께 걷는 신뢰할 수 있는 파트너\n\n잘파는S 김소희입니다.",
     background: {"image":"","video":"","color":"","opacity":0.1},
     experienceCards: [{"icon":"briefcase","title":"잘파는연구소 부산지사","period":"2025 - 현재","description":"대표"}],
     skills: [{"icon":"barChart","title":"데이터 분석","description":"고객님의 사업장에 필요한 홍보옵션들을 분석합니다"},{"icon":"megaphone","title":"마케팅","description":"전략적인 마케팅으로\n성과를 누려보세요"},{"icon":"lineChart","title":"성과 분석","description":"지속적인 모니터링으로 성과를 분석합니다."}],
