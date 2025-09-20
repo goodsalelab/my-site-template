@@ -97,14 +97,14 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    subtitle: "비즈니스의 길을 함께 걷는 신뢰할 수 있는 파트너\n잘파는S 김소희입니다.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    experienceCards: [{"icon":"briefcase","title":"잘파는연구소 부산지사","period":"2025 - 현재","description":"대표"}],
+    skills: [{"icon":"barChart","title":"데이터 분석","description":"고객님의 사업장에 필요한 홍보옵션들을 분석합니다"},{"icon":"megaphone","title":"마케팅","description":"전략적인 마케팅으로\n성과를 누려보세요"},{"icon":"lineChart","title":"성과 분석","description":"지속적인 모니터링으로 성과를 분석합니다."}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
+    story: ["혼자 하는 성장엔 한계가 있습니다.","함께할 때 비로소 가능성이 열립니다.","잘파는연구소 부산지사 대표로서 여러분의 든든한 파트너가 되겠습니다."],
     storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행","✍️ 글쓰기"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)
