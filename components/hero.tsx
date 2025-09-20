@@ -37,7 +37,7 @@ export function Hero() {
   
   const defaultInfo = {
     greeting: "안녕하세요,",
-    name: "당신의 이름",
+    name: "소희",
     title: "프론트엔드 개발자",
     description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
     profileImage: "",
